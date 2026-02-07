@@ -11,7 +11,7 @@ using namespace std;
 void addcard( account acc[], int &count )
 {
      cout << "\n--- Add New Card ---\n";
-     cout<<"~~Enter New Card Details~~\n\n";
+     cout<<"~~Enter New Card Details~\n\n";
      cout<<"Enter Card number: ";
      cin>>acc[count].cardNumber;
      cout<<"Set Pin-code: ";
